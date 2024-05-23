@@ -1,13 +1,11 @@
 # Pwnagotchi
-The description and configuration of my virtual raspberry pi zero based pet that eats wi-fi handshakes as treats. 
-
 
 Pwnagotchi is an A2C-based “AI” powered by bettercap and running on a Raspberry Pi Zero W that learns from its surrounding WiFi environment in order to maximize the crackable WPA key material it captures (either by passive scanning or active deauthentication). This material is collected as PCAP files containing any form of handshake supported by hashcat, including PMKIDs, full and half WPA handshakes.
 
 The purpose of this device is to give (ethical) hackers an excuse to learn about reinforcement learning and WiFi networking, also to give us a reason to get out for more walks.
 
 
-The more you use this virtual device, better and faster it gets at capturing handshakes and getting pcap files.
+The more you use this virtual pet, better and faster it gets at capturing handshakes and getting pcap files.
 
 It has 3 modes:
 MANUAL: When you connect your pwnagotchi through it's data port, you can get access to it using your pc via ssh port and the machine is kinda in like a sleeping mode. You can edit the configuration, add/remove/update
