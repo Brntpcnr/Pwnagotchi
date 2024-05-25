@@ -8,6 +8,7 @@ The purpose of this device is to give (ethical) hackers an excuse to learn about
 The more you use this virtual pet, better and faster it gets at capturing handshakes and getting pcap files.
 
 It has 3 modes:
+
 MANUAL: When you connect your pwnagotchi through it's data port, you can get access to it using your pc via ssh port and the machine is kinda in like a sleeping mode. You can edit the configuration, add/remove/update
 plugins, change it's color, change what will be displayed on it's screen etc. This is the mode you should be using your unit when you want to transfer data from/to it.
 
