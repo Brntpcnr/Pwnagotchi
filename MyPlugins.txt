@@ -1,0 +1,7 @@
+CHECK_WPA.PY  
+
+Not all the .pcap files I get have crackable material which means that I end up having 10's of unnecessary .pcap files so I created python script that shows us if the .pcap files 
+have crackable material or not. The user will specify the  directory that contains the .pcap files. I will update this script to a point where the Pwnagotchi itself will check if the
+handshake file it captures has crackable material, if not it will be deleted from the system.
+
+
